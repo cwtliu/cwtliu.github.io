@@ -1,0 +1,68 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav li a:hover {
+    background-color: #111;
+}
+
+.page-header {
+    background: #8C1515; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #8C1515, #5E3032); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #8C1515, #5E3032); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #8C1515, #5E3032); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #8C1515, #5E3032); /* Standard syntax (must be last) */
+
+}
+
+.page-header h1 {
+}
+
+.page-header img {
+
+    float: left;
+
+    height: 200px;
+    width: auto;
+
+    /*margin-top: auto;
+    margin-bottom: auto;*/
+
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    color: #8C1515;
+}
+
+/*.project-tagline {
+    color: #fff;
+}
+*/
